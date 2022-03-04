@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Bebas Neue';
+}
+a{
+    font-family:'Bebas Neue';
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+/* header css strat here */
+
+.header{
+    width: 100%;
+    padding:60px 0px;
+    background: url(../images/bg-cl.png) center top no-repeat;
+    background-size: cover;
+}
+.header .main-menu .navbar-brand img{
+}
+.header .main-menu .bg-light{
+    background: transparent !important;
+    position: relative;
+}
+.header .main-menu .contact {
+    position: absolute;
+    margin: -44px 0px 0px 67px;
+}
+.header .main-menu li {
+    
+}
+.header .main-menu li a{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 200;
+    margin-right: 30px;
+    color: #71522b !important;
+    letter-spacing: 2px;
+}
+/* header css end here */
+
+/* banner css start here */
+.banner{
+    width: 100%;
+}
+.banner .banner-content{
+    width: 100%;
+    padding: 0px 0px;
+}
+.banner .banner-content p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #71522b;
+    letter-spacing: 1px;
+    margin-top: 88px;
+}
+.banner .banner-image {
+    width: 100%;
+}
+.banner .banner-image img{
+    width: 100%;
+    margin-bottom: -80px;
+}
+.banner .banner-content h1 {
+    font-size: 100px;
+    line-height: 110px;
+    font-weight: 600;
+    color: #3D2514;
+    font-family: 'Alfa Slab One';
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-shadow: 8px 5px #fff;
+}
+.banner .banner-content h4 {
+    font-size: 75px;
+    line-height: 85px;
+    font-weight: 400;
+    margin: -0px 0px 0px 0px;
+    color: #3D2514;
+    font-family: 'Alfa Slab One';
+    text-transform: uppercase;
+    text-shadow: 8px 5px #fff;
+}
+/* banner css end here */
+
+/* feature css start here */
+.feature{
+    width: 100%;
+    padding: 60px 0px;
+}
+.feature .image-1{
+    width: 100%;
+}
+.feature .image-2{
+    width: 100%;
+}
+.feature .image-2 .top-img{
+    width: 100%;
+    margin-bottom: 36px;
+}
+.feature .image-2 .bottom-img{
+    width: 100%;
+}
+/* feature css end */
+
+/* service css start here */
+
+.service{
+    width: 100%;
+    padding: 60px 0px;
+}
+.service .title{
+    width: 100%;
+    text-align: center;
+}
+.service .title h4 {
+    padding: 10px 0px;
+    background-color: #FFC045;
+    width: 20%;
+    margin: 0px auto;
+}
+.service .title h1{
+    padding: 30px 0px;
+    margin: 0px;
+}
+.service .title p{
+    margin-top: -20px;
+}
+.service .inner-item{
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+.service .inner-item .burger-2{
+   width: 76%; 
+}
+.service .inner-item .inner-content{
+    padding: 50px 0px 0px 0px;
+}
+.service .inner-item h4 {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    color: #3D2514;
+    font-family: 'Bebas Neue';
+    letter-spacing: 1px;
+    margin: 0px;
+}
+.service .inner-item h1{
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400;
+    color: #3D2514;
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+}
+.service .inner-item p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #71522b;
+    text-transform: none;
+    padding: 10px 0px;
+}
+.service .inner-item .btn-danger {
+    padding: 12px 25px;
+    font-size: 17px;
+    font-family: 'Alfa Slab One';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.service .inner-item .btn-danger:hover ,.service .inner-item .btn-danger:focus{
+    background-color: #FFC74D;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+}
+
+/* service css end here */
+
+/* about css start here */
+
+.testimonial{
+    width: 100%;
+}
+.testimonial .owl-theme .title h1{
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.testimonial .owl-theme .title p {
+    padding: 20px 50px;
+    margin: 0px 0px 0px -50px;
+}
+
+/* about css end here */
+
+/* contact css start here */
+
+.contact{
+    padding: 0px 0px;
+    background: url(../images/table.png) center top no-repeat;
+    background-size: cover;
+}
+.contact .title {
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+    margin-top: 30px;
+}
+.contact .title h4{
+
+}
+.contact .title h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+.contact .main-form {
+    width: 100%;
+    padding: 80px 0px;
+    margin-top: -80px;
+}
+.contact .main-form .form-control {
+    padding: 15px;
+    width: 95%;
+    color: #000 !important;
+}
+.contact .main-form .btn-danger {
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff !important;
+    padding: 12px 0px;
+    letter-spacing: 1px;
+    font-family: 'Alfa Slab One';
+}
+
+/* contact css end here */
+
+/* golbal css start here */
+p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #71522b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.title{
+}
+.title h4{
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 400;
+    color: #3D2514;
+    font-family: 'Bebas Neue';
+}
+.title h1{
+
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #3D2514;
+    font-family: 'Alfa Slab One';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.title p{
+    font-size: 18px;
+    line-height: 28px;
+    text-transform:capitalize;
+    color: #71522b;
+    font-family: none;
+}
+/* global css end here */
